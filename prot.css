@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(94, 131, 139);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(36, 78, 87);
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 23px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: blanchedalmond;
+    font-size: 1.02em;
+}
+
+.left {
+    font-size: 1.5em;
+
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first>div {
+    width: 40%;
+}
+
+.firstpart {
+    font-size: 3.5em;
+
+}
+
+.image {
+    width: 80%;
+    margin: 40px 0px;
+}
+
+.purple {
+    color: rgb(53, 49, 175);
+    font-style: italic;
+}
+
+#element {
+    color: rgb(53, 49, 175);
+}
+
+.sectionsec {
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+main hr {
+    border: 0px;
+    background-color: #7419c4;
+    height: 1px;
+    margin: 60px 80px;
+}
+
+.text {
+    font-size: 1.02rem;
+    color: rgb(53, 49, 175);
+}
+
+.box {
+    background: white;
+    width: 80vw;
+    height: 1px;
+    margin: 50px 10px;
+    display: flex;
+}
+
+.vertical {
+    height: 60px;
+    background-color: white;
+    width: 1px;
+    margin: 0px 180px;
+}
+
+.image-top {
+    width: 30px;
+    position: relative;
+    top: -40px;
+    left: -15px;
+    opacity: 0.8;
+}
+
+.vertical-title {
+    font-size: 20px;
+    position: relative;
+    top: 24px;
+    width: 140px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 50px;
+    width: 140px;
+    font-size: 13px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(79, 157, 160);
+    height: 15vh;
+    padding: 50px 250px;
+
+}
+
+.footer-first {
+    font-weight: bold;
+}
+
+.last {
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 400px;
+}
+
+button {
+    font-size: 20px;
+    padding: 15px;
+    background-color: #539faf;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer
+}
+button:hover{
+    background-color: #3498ac;
+}
